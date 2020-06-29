@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		
+		<meta charset="ISO-8859-1">
+		<title>Studente</title>
+		
+	</head>
+	
+	<body>
+		
+		Operazioni CRUD per Studente
+		<form action="http://localhost:8080/HelloWorldJDBC/StudenteSrv">	
+			
+			<fieldset>
+			Operazione:
+			<input readonly="readonly" name="operazione" value="inserisci"></input>
+			Nome:
+			<input type="text" name="nome"></input>
+			Cognome:
+			<input type="text" name="cognome"></input>
+			<input type="submit" value="invia"></input>
+			<br />
+			</fieldset>>
+			
+		</form>
+			
+		<form action="http://localhost:8080/HelloWorldJDBC/StudenteSrv">
+			
+			<fieldset>
+			Operazione:
+			<input readonly="readonly" name="operazione" value="cancella"></input>
+			Id:
+			<input type="text" name="idStudente"></input>
+			<input type="submit" value="invia"></input>
+			<br />
+			</fieldset>>
+			
+		</form>
+			
+		<form action="http://localhost:8080/HelloWorldJDBC/StudenteSrv">
+			
+			<fieldset>
+			Operazione:
+			<input readonly="readonly" name="operazione" value="aggiorna"></input>
+			Id:
+			<input type="text" name="idStudente"></input>
+			Colonna:
+			<input type="text" name="colonna"></input>
+			Nuovo valore:
+			<input type="text" name="nuovo"></input>
+			<input type="submit" value="invia"></input>
+			</fieldset>>
+		
+		</form>
+		
+		<form action="http://localhost:8080/HelloWorldJDBC/StudenteSrv">
+			
+			<fieldset>
+			Operazione:
+			<input readonly="readonly" name="operazione" value="stampaTutto"></input>
+			<input type="submit" value="invia"></input>
+			</fieldset>
+		
+		</form>
+		
+	</body>
+
+</html>

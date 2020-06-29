@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+	<html>
+		
+		<head>
+			<meta charset="ISO-8859-1">
+			<title>Corsi</title>
+		</head>
+
+		<body>
+			
+		Operazioni CRUD per Corsi
+		<form action="http://localhost:8080/HelloWorldJDBC/CorsiSrv">	
+			
+			<fieldset>
+			Operazione:
+			<input readonly="readonly" name="operazione" value="inserisci"></input>
+			Descrizione:
+			<input type="text" name="descrizione"></input>
+			<input type="submit" value="invia"></input>
+			<br />
+			</fieldset>>
+			
+		</form>
+			
+		<form action="http://localhost:8080/HelloWorldJDBC/CorsiSrv">
+			
+			<fieldset>
+			Operazione:
+			<input readonly="readonly" name="operazione" value="cancella"></input>
+			Id:
+			<input type="text" name="idCorsi"></input>
+			<input type="submit" value="invia"></input>
+			<br />
+			</fieldset>>
+			
+		</form>
+			
+		<form action="http://localhost:8080/HelloWorldJDBC/CorsiSrv">
+			
+			<fieldset>
+			Operazione:
+			<input readonly="readonly" name="operazione" value="aggiorna"></input>
+			Id:
+			<input type="text" name="idCorsi"></input>
+			Colonna:
+			<input type="text" name="colonna"></input>
+			Nuovo valore:
+			<input type="text" name="nuovo"></input>
+			<input type="submit" value="invia"></input>
+			</fieldset>>
+		
+		</form>
+		
+		<form action="http://localhost:8080/HelloWorldJDBC/CorsiSrv">
+			
+			<fieldset>
+			Operazione:
+			<input readonly="readonly" name="operazione" value="stampaTutto"></input>
+			<input type="submit" value="invia"></input>
+			</fieldset>
+		
+		</form>
+
+		</body>
+
+</html>
