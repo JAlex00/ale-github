@@ -1,0 +1,6 @@
+com\byteslounge\spring\tx\dao\impl\UserDAOImpl.class
+com\byteslounge\spring\tx\model\User.class
+com\spring\HelloWorldController.class
+com\byteslounge\spring\tx\dao\UserDAO.class
+com\spring2\services\impl\ProvaServiceImpl.class
+com\spring2\services\ProvaService.class
